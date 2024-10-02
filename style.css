@@ -130,6 +130,11 @@ main {
     display: inline-block;
     margin-top: 20px;
   }
+  video {
+    height: auto;
+    object-fit: cover;
+    transform: translate(40%, 10%);
+  }
 }
 
 @media (max-width: 480px) {
@@ -169,5 +174,11 @@ main {
 
   .right-section {
     font-size: 14px;
+  }
+  video {
+    height: auto;
+  
+    object-fit: cover;
+    transform: translate(50%, 10%);
   }
 }
